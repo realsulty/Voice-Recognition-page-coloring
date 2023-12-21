@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center; /*  This made the alignemnt perfect on page*/
+}
+
+h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.alert{
+background: red;
+color: white;
+padding: 10px 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+text-align: center;
+width: fit-content;
+
+}
